@@ -1,0 +1,9 @@
+#Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto deberá pagar finalmente por su compra.
+a=float(input("ingrese el valor de la compra"))
+b=a-(a*0.15)
+
+print("el precio final con el descuento incluido es :" , b)
+#float:La función FLOAT devuelve una representación de coma flotante de un número. FLOAT es sinónimo de DOUBLE.
+#input:El objetivo de la instrucción input es parar un programa en Python, esperar que el usuario introduzca un dato 
+# mediante el teclado, y tras apretar la tecla enter (o intro o return), almacenar este dato en una variable.
+#print => este comando nos permite imprimir cualquier texto en pantalla, puede ser el resultado de una operación o un texto escrito entre comillas.                    
