@@ -1,0 +1,13 @@
+#Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.
+a=float(input("ingrese el numero de hombres"))
+b=float(input("ingrese el numero de mujeres"))
+ta=a+b
+ph=a*100/ta
+pm=b*100/ta
+
+print("el porcentaje de hombres es :" , ph)
+print("el porcentaje de mujeres es :" , pm)
+#float:La función FLOAT devuelve una representación de coma flotante de un número. FLOAT es sinónimo de DOUBLE.
+#input:El objetivo de la instrucción input es parar un programa en Python, esperar que el usuario introduzca un dato 
+# mediante el teclado, y tras apretar la tecla enter (o intro o return), almacenar este dato en una variable.
+#print => este comando nos permite imprimir cualquier texto en pantalla, puede ser el resultado de una operación o un texto escrito entre comillas.             
